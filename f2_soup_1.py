@@ -36,7 +36,7 @@ while i < len(soup_driver):
     i += 1
 
 print(soup_com.text)
-print(soup_sessiontime.text)
+##print(soup_sessiontime.text)
 print(soup_weather.text)
 
 br.quit()

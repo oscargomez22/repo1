@@ -1,0 +1,54 @@
+@font-face {
+	font-family:'BebasNeueRegular';
+	font-weight:normal;
+	font-style:normal;
+	letter-spacing:0.01em;
+	src:	url(%27fonts/ed3b9f87__bebasneue-webfont.eot%27);
+	src:	url(%27fonts/cdcadce6__bebasneue-webfont.eot) format('embedded-opentype'),
+			url(%27fonts/b2786ee4__bebasneue-webfont.woff%27) format('woff'),
+			url(%27fonts/8f441d90__bebasneue-webfont.ttf%27) format('truetype'),
+			url(%27fonts/662fae40__bebasneue-webfont.svg) format('svg');
+}
+
+@font-face {
+	font-family: 'BebasNeue Bold';
+	src: url(%27fonts/2897959c__BebasNeue%20Bold.eot%27);
+	src: url(%27fonts/df3c07c7__BebasNeue%20Bold.eot) format('embedded-opentype'),
+		 url(%27fonts/6e2ea83e__BebasNeue%20Bold.woff2%27) format('woff2'),
+		 url(%27fonts/c8ba99f6__BebasNeueBold.woff%27) format('woff'),
+		 url(%27fonts/f70f6970__BebasNeueBold.ttf%27)  format('truetype'),
+		 url(%27fonts/c005ebae__BebasNeueBold.svg) format('svg');
+  }
+
+ @font-face {
+	font-family: 'bebas_neuebook';
+	src: url(%27fonts/d0ab1fb4__bebasneue_book-webfont.eot%27);
+	src: url(%27fonts/84a04940__bebasneue_book-webfont.eot) format('embedded-opentype'),
+		 url(%27fonts/41f030c1__bebasneue_book-webfont.woff2%27) format('woff2'),
+		 url(%27fonts/3bc7482d__bebasneue_book-webfont.woff%27) format('woff'),
+		 url(%27fonts/0228c6be__bebasneue_book-webfont.ttf%27)  format('truetype'),
+		 url(%27fonts/09d93f18__bebasneue_book-webfont.svg) format('svg');
+  }
+
+  @font-face {
+	font-family: 'titillium_semibold';
+	src: url(%27fonts/15cd81ea__titilliumweb-semibold-webfont.eot%27);
+	src: url(%27fonts/0a89d12e__titilliumweb-semibold-webfont.eot) format('embedded-opentype'),
+		 url(%27fonts/f75c9c01__titilliumweb-semibold-webfont.woff2%27) format('woff2'),
+		 url(%27fonts/6b1dd356__titilliumweb-semibold-webfont.woff%27) format('woff'),
+		 url(%27fonts/c73ea4a0__titilliumweb-semibold-webfont.ttf%27)  format('truetype'),
+		 url(%27fonts/11a8ee31__titilliumweb-semibold-webfont.svg) format('svg');
+  }
+
+.bebasneue {
+	text-transform:uppercase;
+	font-weight: normal;
+	font-style: normal;
+	font-family: 'BebasNeueRegular', Arial;
+}
+/*!
+* AerWebCopy Engine [version 6.3.0]
+* Copyright Aeroson Systems & Co.
+* File mirrored from https://www.fiaformula2.com/livetiming/css/font.css
+* At UTC time: 2021-07-10 11:41:49.108988
+*/

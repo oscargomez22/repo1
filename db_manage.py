@@ -16,9 +16,12 @@ try:
     #cursor.execute(sql_create_f2_table)
     #print("table is created")   
 
-    sql_populate_db = '''INSERT INTO f2_cars(car_num, driver_short_name, driver_long_text) VALUES (4, "DRU", "F.DRUGOVICH"), (5, "TIC", "D.TICKTUM");''' 
-    cursor.execute(sql_populate_db)
-    db_con.commit()
+    #sql_populate_db = '''INSERT INTO f2_cars(car_num, driver_short_name, driver_long_text) VALUES (23,"DEL", "A.DELEDDA"), (24, "VIS", "B.VISCAAL");''' 
+    #sql_populate_db = '''UPDATE f2_cars SET driver_short_name = 'DAR' WHERE car_num = 6 ;'''
+    #cursor.execute(sql_populate_db)
+    #db_con.commit()
+    
+
     
     sql_request = 'SELECT * FROM f2_cars'
     sql_result = cursor.execute(sql_request)
